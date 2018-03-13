@@ -16,3 +16,15 @@ define( 'DISALLOW_FILE_EDIT', true );            // --- Disables the plugin and 
 define( 'DISALLOW_FILE_MODS', true );            // --- Disables the plugin & theme editor PLUS the plugin & theme update
 define( 'IMAGE_EDIT_OVERWRITE', true );          // --- Cleans up image edits
 ```
+
+> `WP_MEMORY_LIMIT` Sets memory limit for the website
+
+> `WP_MAX_MEMORY_LIMIT` Sets memory limit for the admin area
+
+> `NOBLOGREDIRECT` Redirects non-existing subdomains and subfolders to homepage
+
+> `DISALLOW_FILE_EDIT` Disables the plugin and theme editor
+
+> `DISALLOW_FILE_MODS` Disables the plugin & theme editor PLUS the plugin & theme update
+
+> `IMAGE_EDIT_OVERWRITE` Cleans up image edits
