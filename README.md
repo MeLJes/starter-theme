@@ -1,2 +1,2 @@
-# starter-theme
+# Ackerman
 WP Starter theme
