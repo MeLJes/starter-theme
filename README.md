@@ -57,9 +57,11 @@ define( 'IMAGE_EDIT_OVERWRITE', true );
 
     > Should be in loop
 
+    > `the_title` function can contain coma separated tags, like `'<h1>', '</h1>'`
+
     ```php
     <?php
-      the_title( '<h2>', '</h2>' );
+      the_title();
       the_content();
     ?>
     ```
