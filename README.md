@@ -112,15 +112,15 @@ define( 'IMAGE_EDIT_OVERWRITE', true );
 
     ```css
     /*
-        Theme Name: ackerman
-        Theme URI: https://github.com/MeLJes/starter-theme
-        Author: MeLJes
-        Author URI: https://github.com/MeLJes
-        Description: Ackerman - Starter WP theme
-        Version: 1.0.0
-        License: GNU General Public License v2 or later
-        License URI: http://www.gnu.org/licenses/gpl-2.0.html
-        Text Domain: ackerman
+      Theme Name: ackerman
+      Theme URI: https://github.com/MeLJes/starter-theme
+      Author: MeLJes
+      Author URI: https://github.com/MeLJes
+      Description: Ackerman - Starter WP theme
+      Version: 1.0.0
+      License: GNU General Public License v2 or later
+      License URI: http://www.gnu.org/licenses/gpl-2.0.html
+      Text Domain: ackerman
     */
     ```
 
