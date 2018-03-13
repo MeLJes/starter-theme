@@ -33,6 +33,8 @@ define( 'IMAGE_EDIT_OVERWRITE', true );
 
 1. Add additional classes to the `body` if we are on specific page
 
+    > Add `$body_classes` as argument into `body_class();` function
+
     ```php
     <?php
       if( is_home() || is_page( 'some-page' ) ):
@@ -40,8 +42,6 @@ define( 'IMAGE_EDIT_OVERWRITE', true );
       endif;
     ?>
     ```
-
-    > Add `$body_classes` as argument into `body_class();` function
 
 2. Get page thumbnail with specific class
 
