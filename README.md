@@ -57,7 +57,7 @@ define( 'IMAGE_EDIT_OVERWRITE', true );
 
     > Should be in loop
 
-    > `the_title` function can contain coma separated tags, like `'<h1>', '</h1>'`
+    > `the_title` function can contain coma separated tags as arguments, like `'<h1>', '</h1>'`
 
     ```php
     <?php
@@ -96,10 +96,10 @@ define( 'IMAGE_EDIT_OVERWRITE', true );
 
 6. Other
 
-    > `<?php get_template_part( 'templates/file', 'name' ); ?>` Get template part
+    > **`<?php get_template_part( 'templates/file', 'name' ); ?>`** Get template part
 
-    > `<?php bloginfo( 'name' ); ?>` Get base blog info
+    > **`<?php bloginfo( 'name' ); ?>`** Get base blog info
 
-    > `<?php the_custom_logo(); ?>` Get site logo
+    > **`<?php the_custom_logo(); ?>`** Get site logo
 
-    > `<?php echo esc_url( home_url( '/' ) ); ?>` Get home page URL
+    > **`<?php echo esc_url( home_url( '/' ) ); ?>`** Get home page URL
