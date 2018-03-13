@@ -62,7 +62,9 @@ define( 'IMAGE_EDIT_OVERWRITE', true );
       the_title( '<h2>', '</h2>' );
       the_content();
     ?>
+    ```
 
+    ```php
     <?php echo esc_url( get_permalink() ) ?>
     ```
 
