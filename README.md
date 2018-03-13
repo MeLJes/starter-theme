@@ -103,3 +103,16 @@ define( 'IMAGE_EDIT_OVERWRITE', true );
     > **`<?php the_custom_logo(); ?>`** Get site logo
 
     > **`<?php echo esc_url( home_url( '/' ) ); ?>`** Get home page URL
+
+### Other stuff
+
+1. Assign unique template for custom post type
+
+    ```php
+    <?php
+    /*
+    Template Name: Name
+    Template Post Type: post, page, custom_type
+    */
+    ?>
+    ```
