@@ -4,7 +4,7 @@
 
 **ACKERMAN WP** is a basic theme, with all the necessary templates without useless code.
 
-## WP-CONFIG
+## Setup wp-config
 
 Place this snippets after opening tags.
 
@@ -28,6 +28,8 @@ define( 'IMAGE_EDIT_OVERWRITE', true );
 > `DISALLOW_FILE_MODS` Disables the plugin & theme editor PLUS the plugin & theme update
 
 > `IMAGE_EDIT_OVERWRITE` Cleans up image edits
+
+---
 
 ## Code snippets
 
@@ -106,7 +108,23 @@ define( 'IMAGE_EDIT_OVERWRITE', true );
 
 ### Other stuff
 
-1. Assign unique template for custom post type
+1. Base `style.css`
+
+    ```css
+    /*
+        Theme Name: ackerman
+        Theme URI: https://github.com/MeLJes/starter-theme
+        Author: MeLJes
+        Author URI: https://github.com/MeLJes
+        Description: Ackerman - Starter WP theme
+        Version: 1.0.0
+        License: GNU General Public License v2 or later
+        License URI: http://www.gnu.org/licenses/gpl-2.0.html
+        Text Domain: ackerman
+    */
+    ```
+
+2. Assign unique template for custom post type
 
     ```php
     <?php
@@ -116,3 +134,18 @@ define( 'IMAGE_EDIT_OVERWRITE', true );
     */
     ?>
     ```
+
+---
+
+## Development
+
+```php
+define( 'WP_DEBUG', true );
+define( 'WP_DEBUG_DISPLAY', true );
+```
+
+> `WP_DEBUG` Allows you to view errors in your theme
+
+> `WP_DEBUG_DISPLAY` Error messages will display at the top of your site pages
+
+> :warning: Dont forget set to ‘false’ before upload to live!
