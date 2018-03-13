@@ -21,7 +21,7 @@ define( 'IMAGE_EDIT_OVERWRITE', true );
 
 > `WP_MAX_MEMORY_LIMIT` Sets memory limit for the admin area
 
-> `NOBLOGREDIRECT` Redirects non-existing subdomains and subfolders to homepage
+> `NOBLOGREDIRECT` Redirects non-existing subdomains and subfolders to homepage **(don't forget to change URL)**
 
 > `DISALLOW_FILE_EDIT` Disables the plugin and theme editor
 
