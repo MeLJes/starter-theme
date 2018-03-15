@@ -15,7 +15,7 @@ define( 'NOBLOGREDIRECT', 'http://yoursite' );
 define( 'DISALLOW_FILE_EDIT', true );
 define( 'DISALLOW_FILE_MODS', true );
 define( 'IMAGE_EDIT_OVERWRITE', true );
-define('WPCF7_AUTOP', false );
+define( 'WPCF7_AUTOP', false );
 ```
 
 > `WP_MEMORY_LIMIT` Sets memory limit for the website
