@@ -15,6 +15,7 @@ define( 'NOBLOGREDIRECT', 'http://yoursite' );
 define( 'DISALLOW_FILE_EDIT', true );
 define( 'DISALLOW_FILE_MODS', true );
 define( 'IMAGE_EDIT_OVERWRITE', true );
+define('WPCF7_AUTOP', false );
 ```
 
 > `WP_MEMORY_LIMIT` Sets memory limit for the website
@@ -28,6 +29,8 @@ define( 'IMAGE_EDIT_OVERWRITE', true );
 > `DISALLOW_FILE_MODS` Disables the plugin & theme editor PLUS the plugin & theme update
 
 > `IMAGE_EDIT_OVERWRITE` Cleans up image edits
+
+> `WPCF7_AUTOP` Remove `<p>` and `<br />` from Contact Form 7
 
 ---
 
