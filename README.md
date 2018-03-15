@@ -109,6 +109,8 @@ define( 'WPCF7_AUTOP', false );
 
     > **`<?php echo esc_url( home_url( '/' ) ); ?>`** Get home page URL
 
+    > **`<?php echo get_stylesheet_directory_uri() ?>`** Get theme URL
+
 ### Other stuff
 
 1. Base `style.css`
